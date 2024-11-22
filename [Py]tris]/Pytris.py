@@ -21,7 +21,7 @@ class Pytris:
         self.leaderboard_file = "leaderboard.json"
 
         # Load music
-        self.music_file = 'C:\\Users\\NashW\Downloads\-Py-tris--main\-Py-tris--main\[Py]tris]\Original Tetris theme (Tetris Soundtrack).mp3'  # Replace with the path to your Tetris music file
+        self.music_file = ''  # Replace with the path to your  music 
         pygame.mixer.music.load(self.music_file)
         pygame.mixer.music.set_volume(0.5)
 
